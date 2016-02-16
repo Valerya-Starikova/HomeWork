@@ -6,6 +6,7 @@ body{
     background-image: url(../img/bg.png);     
 }
 #logo{
+    
     margin-top: 34px;
     margin-left: 47px;
 }
@@ -41,7 +42,9 @@ body{
     width: 145px;
     height: 39px;
     display: inline-block;
-    text-align: center;   
+    text-align: center;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
 }
 .menu li:nth-child(2){
     width: 100px;
